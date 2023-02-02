@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>display flex</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: black;
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      ul{
+        display: flex;
+        align-items: center;
+      }
+      li {
+        display: inline;
+        list-style-type: none;
+        padding: 30px;
+      }
+      .image img {
+        width: 100%;
+        height: 50vh;
+      }
+      .boxes {
+        background-color: bisque;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .box1 {
+        height: 300px;
+        width: 250px;
+        background-color: aqua;
+        text-align: center;
+        color: white;
+      }
+      .box2 {
+        height: 300px;
+        width: 250px;
+        background-color: rgb(10, 180, 24);
+        text-align: justify;
+        color: red;
+      }
+      .box3 {
+        height: 300px;
+        width: 250px;
+        background-color: rgb(40, 7, 173);
+        text-align: left;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+    <div class="image">
+      <img
+        src="https://cssslider.com/sliders/demo-17/data1/images/picjumbo.com_hanv9909.jpg"
+        alt="slider image"
+      />
+    </div>
+    <div class="boxes">
+      <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga
+        repudiandae tempore odit minima, velit eaque facere vero esse
+        necessitatibus possimus libero beatae dolores illo in rem. Aperiam,
+        officia reiciendis.
+      </div>
+      <div class="box2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+        assumenda voluptas consequuntur similique quo dolores corrupti expedita
+        ipsum minima unde! Molestias suscipit eius omnis, debitis optio eveniet
+        error nobis aut.
+      </div>
+      <div class="box3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic molestiae
+        ad dicta doloremque eligendi beatae ipsam ullam, sunt, fuga rem vitae
+        tempora animi quidem corporis nesciunt commodi odit exercitationem
+        minus.
+      </div>
+    </div>
+  </body>
+</html>
