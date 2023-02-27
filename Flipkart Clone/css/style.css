@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header property */
+header{
+    height: 55px;
+    background-color: #2874f0;
+    font-family: 'Tilt Neon', cursive;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    padding: 0 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 30px;
+    margin: 0 20px 0 50px;
+    padding: 0px 25px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: #2874f0;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* header property ends  */
+
+
+/* main container property start  */
+.container{
+    min-height: calc(80vh - 55px - 10vh);
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img{
+    margin: auto;
+    width: 80vw;
+}
+.card h2{
+    margin: 15px 30px;
+    font-family: 'Tilt Neon', cursive;
+}
+.card{
+    max-width: 91vw;
+    margin: 50px auto;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-item{
+    width: 12vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+.my-1{
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+
+
+
+/* footer property  */
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+}
